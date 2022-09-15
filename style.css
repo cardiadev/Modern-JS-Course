@@ -27,7 +27,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	/* list-style: none; */
 }
 blockquote, q {
 	quotes: none;
@@ -87,7 +87,7 @@ a{
     text-decoration: none;
 }
 a:visited{
-    color:inherit;
+    /* color:inherit; */
 }
 a:hover{
     text-decoration: underline;
@@ -95,7 +95,10 @@ a:hover{
 
 .listStyle{
     margin-left: 2rem;
-    list-style-type: square;
+    /* list-style-type: square; */
+}
+.listStyle li{
+    margin-top: .5rem;
 }
 .copy{
     color: white;
