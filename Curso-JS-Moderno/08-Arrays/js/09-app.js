@@ -8,9 +8,9 @@ const carrito = [
 ]
 
 for (let i = 0; i < carrito.length; i++) {
-    console.log(`${carrito[i].nombre} - Precio: ${carrito[i].precio}`);
+    console.log("For",`${carrito[i].nombre} - Precio: ${carrito[i].precio}`);
 }
 
 carrito.forEach( function(producto){
-    console.log(`${producto.nombre} - Precio: ${producto.precio}`);
+    console.log("ForEach",`${producto.nombre} - Precio: ${producto.precio}`);
 })
